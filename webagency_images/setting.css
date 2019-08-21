@@ -1,0 +1,300 @@
+@font-face
+{
+	font-family: 'fontAwesome';
+	src: url('fonts/fontawesome-webfont.eot');
+	src: url('fonts/fontAwesome.eot?#iefix') format('embedded-opentype'),
+		 url('fonts/fontawesome-webfont.ttf') format('truetype'),
+		 url('fonts/fontawesome-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face
+{
+	font-family: 'robotoMedium';
+	src: url('fonts/Roboto-Medium.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body
+{
+    font-family: fontAwesome, serif;
+	margin: 0;
+	padding: 0;
+}
+
+header
+{
+    background-color: white;
+    height: 80px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    opacity: 0.9;
+}
+
+#menu
+{
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+    align-items: center;
+}
+
+#menu nav ul
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+#menu nav ul a
+{
+    color: rgb(101,105,110);
+    text-decoration: none;
+    padding: 1.5em;
+    padding-top: 1.8em;
+    margin: 0;
+}
+
+#menu nav ul a:hover
+{
+    color: black;
+    border-top: 5px solid rgb(49,161,192);
+}
+
+#imageAccueil img
+{
+    position: relative;
+    width: 100%;
+    top: 0;
+}
+
+#descriptionAccueil
+{
+    width: 30%;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    color: white;
+}
+
+#descriptionAccueil h1
+{
+    font-family: robotoBlack;
+}
+
+.nom
+{
+    color: rgb(49,161,192)
+}
+
+.boutonInfo
+{
+    text-decoration: none;
+    color: white;
+    padding: 11px;
+    background-color: rgb(49,161,192);
+    border-radius: 5px / 5px;
+    box-shadow: 0px 3px 0px rgb(35,136,164);
+    position: relative;
+    left: 10px;
+    top: 10px;  
+}
+
+#service
+{
+    height: 900px;
+}
+
+.enTete
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    height: 200px;
+}
+
+.enTete h1
+{
+    font-family: robotoMedium, serif;
+}
+.trait img
+{
+    position: relative;
+    z-index: 2;
+}
+
+.trait hr
+{
+    position: relative;
+    bottom: 1.30em;
+    width: 15em;
+    z-index: 1;
+    opacity: 0.6;
+}
+
+#infoService
+{
+    display: flex;
+    height: 500px;
+}
+
+#infoService ul
+{
+    list-style-type: none;
+    width: 30%;
+    position: relative;
+    top: 10%;
+    left: 23%;
+}
+
+#infoService .fa
+{
+    position: relative;
+    bottom: 2px;
+    border: 1px solid rgb(177,182,188);
+    border-radius: 50%;
+    padding: 1.8%;
+    transform: scale(1.8);
+    z-index: 1;
+    color: rgb(49,161,192);
+    opacity: 0.7;
+}
+
+
+#infoService ul img
+{
+    position: relative;
+    z-index: 2;
+}
+
+.img
+{
+    position: relative;
+    top: 20%;
+    right: 13%;
+}
+
+#image
+{
+    position: relative;
+    left: 10%;
+    top: 20%;
+}
+
+#projet
+{
+    background-color: rgb(230,230,230);
+    height: 900px;
+}
+
+#projet nav ul
+{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#projet nav ul a
+{
+    text-decoration: none;
+    padding: 10px 30px 10px;
+    background-color: rgb(210,210,210);
+    color: rgb(101,105,110);
+}
+
+#projet nav ul a:hover
+{
+    background-color: rgb(49,161,192);
+    box-shadow: 0px 3px 0px rgb(35,136,164);
+    color: black;
+}
+
+#projet nav ul li
+{
+    position: relative;
+}
+
+#allWorks
+{
+    box-shadow: 0px 3px 0px rgb(35,136,164);
+}
+
+.fleche
+{
+    font-size: 30px;
+    color: rgb(35,136,164);
+    position: absolute;
+    top: 16px;
+    left: 50px;
+}
+
+#imageProjet img
+{
+    margin: 25px;
+    width: 20%;
+}
+
+#imageProjet
+{
+    position: relative;
+    left: 4%;
+    top: 25px;
+}
+
+#iframe
+{
+    width: 100%;
+    position: relative;
+}
+
+#iframe iframe
+{
+    width: 100%;
+    height: 750px;
+}
+
+#formulaire
+{
+    background-color: rgb(230,230,230); 
+    width: 240px;
+    padding: 0px 85px 0px 20px;
+    position: absolute;
+    top: 10%;
+    right: 15%;
+    z-index: 2;
+}
+
+#formulaire input[type="text"],input[type="email"], textarea
+{
+    width: 300px;
+}
+
+input[type=submit]
+{
+    background-color: rgb(49,161,192);
+    color: white;
+    padding: 3px 25px;
+    border-radius: 5px 5px;
+    box-shadow: 1px 3px 0px rgb(35,136,164);
+    border: none;
+}
+
+#bleu
+{
+    background-color: rgb(49,161,192);
+    position: absolute;
+    width: 100%;
+    height: 750px;
+    top: 0;
+    z-index: 1;
+    opacity: 0.2;
+}
